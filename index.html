@@ -4,10 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            border: 2px solid #000
+        }
+        td {
+            border: 2px solid #000
+        }
+
+    </style>
 </head>
+
 <body>
-    <section><h1>Привет, это мой/наш сайт. Всё получилось!</h1> 
-    <p>Здравствуйте! Это мой первый сайт! Горжусь своей работой 
+    <section>
+        <h1>Привет, это наш сайт. Всё получилось!</h1> 
+    <p>Здравствуйте! Это наш первый сайт! Гордимся своей работой 
         <p>Не судите строго:)
 
         </p>
@@ -16,33 +28,214 @@
     <section>
         <h2>Таблицы</h2>
          
-        <table border="1">
+        <table>
             <tr><td colspan="2">ячейка1</td><td>ячейка3</td></tr>
             <tr><td rowspan="2">ячейка4</td><td>ячейка5</td><td>ячейка6</td>
             <tr><td>ячейка8</td><td>ячейка9</td></tr>
         </table>
 
-        <h1>  
-            
-        </h1>
+        <p> 
 
-        <table border="1">
+        </p>
+
+        <table>
             <tr><td colspan="3">ячейка1</td></tr>
             <tr><td>ячейка4</td><td rowspan="2">ячейка5</td><td>ячейка6</td>
             <tr><td>ячейка8</td><td>ячейка9</td></tr>
         </table>
 
-        <h1>  
+        <p> 
             
-        </h1>
+        </p>
 
-        <table border="1">
-            <tr><td rowspan="3">ячейка1</td><td>ячейка</td> </tr>
-            <tr><td>ячейка4</td colspan="2"><td>ячейка5</td>
-            <tr><td rowspan="3">ячейка1</td></tr>
+        <table>
+            <tr>
+                <td rowspan="3">ячейка1</td>
+                <td>ячейка2</td>
+                <td rowspan="3">ячейка3</td>
+            </tr>
+            <tr>
+                <td>ячейка5</td>
+            </tr>
+            <tr>
+                <td>ячейка8</td>
+            </tr>
+        </table>
+
+        <p> 
+            
+        </p>
+
+        <table>
+            <tr>
+                <td>text</td>
+                <td colspan="5" bgcolor="#008000">text</td>
+                <td>text</td>
+                <td>text</td>
+            </tr>
+            <tr>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+            </tr>
+            <tr>
+                <td colspan="2" bgcolor="#008000">text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+            </tr>
+
+        </table>
+
+        <p> 
+            
+        </p>
+
+        <table cellpadding="10"> 
+            <tr>
+                <td align="center" rowspan="2" font-weight: bold> <b>номер</b> </td>
+                <td align="center" colspan="2"><b>теги</b></td>
+            </tr>
+            <tr>
+                <td align="center"><b>тег</b></td>
+                <td align="center"><b>значение</b></td>
+            </tr>
+            <tr>
+                <td align="center">1</td>
+                <td align="center">p</td>
+                <td rowspan="4" align="center">для текста</td>
+            </tr>
+            <tr>
+                <td align="center">2</td>
+                <td align="center">a</td>
+            </tr>
+            <tr>
+                <td align="center">3</td>
+                <td align="center">b</td>
+            </tr>
+            <tr>
+                <td align="center">4</td>
+                <td align="center">i</td>
+            </tr>
+            <tr>
+                <td align="center">5</td>
+                <td align="center">table</td>
+                <td align="center">таблица</td>
+            </tr>
+            <tr>
+                <td align="center">6</td>
+                <td align="center">tr</td>
+                <td align="center">ряд таблицы</td>
+            </tr>
+            <tr>
+                <td align="center">7</td>
+                <td align="center">td</td>
+                <td rowspan="2" align="center">ячейки таблицы</td>
+            </tr>
+            <tr>
+                <td align="center">8</td>
+                <td align="center">th</td>
+            </tr>
+        </table>
+        
+        <p> 
+            
+        </p>
+
+        <table cellpadding="10">
+            <tr align="center">
+                <td rowspan="9">A</td>
+                <td rowspan="8">B</td>
+                <td rowspan="7">C</td>
+                <td rowspan="6">D</td>
+                <td rowspan="5">E</td>
+                <td rowspan="4">F</td>
+                <td>AH</td>
+                <td rowspan="4">H</td>
+                <td rowspan="5">I</td>
+                <td rowspan="6">J</td>
+                <td rowspan="7">K</td>
+                <td rowspan="8">L</td>
+                <td rowspan="10">M</td>
+            </tr>
+            <tr align="center">
+                <td>G</td>
+            </tr>
+            <tr align="center">
+                <td>GH</td>
+            </tr>
+            <tr align="center">
+                <td>N</td>
+            </tr>
+            <tr align="center">
+                <td colspan="3">O</td>
+            </tr>
+            <tr align="center">
+                <td colspan="5">P</td>
+            </tr align="center">
+            <tr align="center">
+                <td colspan="7">Q</td>
+            </tr>
+            <tr align="center">
+                <td colspan="2">R</td>
+                <td>S</td>
+                <td>T</td>
+                <td>U</td>
+                <td>V</td>
+                <td>W</td>
+                <td colspan="2">X</td>
+            </tr>
+            <tr align="center">
+                <td colspan="11">Y</td>
+            </tr>
+            <tr align="center">
+                <td colspan="2">Z</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+            </tr>
         </table>
     </section>
 
-</body>
+    <section>
+        <h2>
+            Полезные ссылки
+        </h2>
+        <ol>
+            <li><a href="https://ru.wikipedia.org/" target="_blank">Wikipedia</a></li>
+            <li><a href="https://www.kinopoisk.ru/" target="_blank">Kinopoisk</a></li>
+            <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+            <li><a href="https://html5book.ru/" target="_blank">HTML5BOOK</a></li>
+           </ol>
+    </section>
 
+    <section>
+        <h2>
+            Мои любимые картинки
+        </h2>
+        <table style="border: 0px; color: aliceblue;">
+            <tr>
+            <td style="border: 0px;"><img src="https://i.pinimg.com/564x/c7/f2/07/c7f2074de55d9963366d90dc483e5c6c.jpg" width="300" height="300"></td>
+            <td style="border: 0px;"><img src="https://i.pinimg.com/564x/66/26/c7/6626c724cf7f5101399ce8e3f72ffd64.jpg" width="300" height="300"></td>
+            <td style="border: 0px;"><img src="https://i.pinimg.com/564x/2e/18/70/2e18700f6e98472b3986f4a4afda412a.jpg" width="300" height="300"></td>
+            <td style="border: 0px;"><img src="https://i.pinimg.com/564x/b9/0a/71/b90a716ce19919ed92f1de514ec41dd2.jpg" width="300" height="300"></td>
+            <td style="border: 0px;"><img src="https://i.pinimg.com/564x/6a/2b/01/6a2b0175bae9e1b77b5c25deba536b1d.jpg" width="300" height="300"></td></tr>
+        </table>
+    </section>
+</body>
 </html>
